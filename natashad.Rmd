@@ -1,5 +1,5 @@
 ---
-title: "Natasha Djuric and Claire"
+title: "Natasha Djuric"
 
 
 output: html_document
