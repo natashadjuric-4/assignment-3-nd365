@@ -3,16 +3,17 @@ navbar:
   left:
     - text: "Our Group Website"
       href: index.html
-    - text: "Natasha"
-      href: natashad.html
     - text: "Eric"
       href: eric.html
-
+    - text: "Adam"
+      href: adam.html 
+    - text: "Natasha"
+      href: natashad.html 
       
   output_dir: "."    
 output:
   html_document:
     theme: cerulean
     highlight: textmate
-    toc: true 
-    toc_float: true
+    toc: false 
+    toc_float: false
