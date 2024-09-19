@@ -1,10 +1,11 @@
 ---
-title: "natashad"
-author: "Natasha Djuric"
-date: "`r Sys.Date()`"
-output:
-  github_document:
+title: "Natasha Djuric"
+
+
+output: html_document
 ---
+
+## About me
 
 Hi! My name is Natasha Djuric, and I'm a third year PhD student.
 

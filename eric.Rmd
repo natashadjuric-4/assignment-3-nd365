@@ -17,4 +17,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - I love natural history and am especially enamored with invertebrates, trees, and edible (culinary) fungi.  
 
-![](/Users/ey239/Github/assignment-3a-ey239/IMG_17261.jpeg)
+![](IMG_17261.jpeg)

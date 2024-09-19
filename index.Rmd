@@ -1,8 +1,6 @@
 ---
-title: "index"
-
-output:
-  github_document:
+title: "Assignment 3"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
