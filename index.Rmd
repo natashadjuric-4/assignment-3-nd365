@@ -1,0 +1,29 @@
+---
+title: "index"
+
+output:
+  github_document:
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Organic Field Crops Research
+
+Hi! We are [Natasha Djuric](https://github.com/natashadjuric-4) & [Eric Youngerman](https://github.com/ericyoungerman) and we are two graduate students in the Sustainable Cropping Systems Lab.
+<br>
+
+
+![Natasha examining her first year stand of Kernza](kernza.jpg){width="150px"} 
+
+<br>
+
+![Eric basking in some organic no-till soybean](ericyoungerman.jpeg){width="150px"}
+
+
+<br>
+
+
+
+

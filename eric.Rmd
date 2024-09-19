@@ -1,0 +1,20 @@
+---
+title: "Eric Youngerman"
+
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About me
+- I am a Research Support Specialist and Ph.D. Student in the Soil and Crops Section in the School of Integrative Plant Sciences working under Dr. Matthew Ryan in the Sustainable Cropping Systems Lab 
+
+- My research looks to advance sustainable pest and disease management practices in organic cropping systems. Specifically, I investigate novel technologies for weed management and how to reduce pest and disease pressure through cultural and mechanical management in organic field crops. 
+
+- Prior to my current focus in agroecology and sustainable agriculture, my research focused on the evolution and ecology of obligate ant-plant mutualisms in the Peruvian Amazon and Papua New Guinea.  
+
+- I love natural history and am especially enamored with invertebrates, trees, and edible (culinary) fungi.  
+
+![](/Users/ey239/Github/assignment-3a-ey239/IMG_17261.jpeg)

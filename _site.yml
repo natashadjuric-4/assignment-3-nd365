@@ -1,0 +1,18 @@
+output_dir: "natasha-eric-website"
+navbar:
+  left:
+    - text: "Our Group Website"
+      href: index.html
+    - text: "Natasha"
+      href: natashad.html
+    - text: "Eric"
+      href: eric.html
+
+      
+  output_dir: "."    
+output:
+  html_document:
+    theme: cerulean
+    highlight: textmate
+    toc: true 
+    toc_float: true

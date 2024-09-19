@@ -1,0 +1,17 @@
+---
+title: "natashad"
+author: "Natasha Djuric"
+date: "`r Sys.Date()`"
+output:
+  github_document:
+---
+
+Hi! My name is Natasha Djuric, and I'm a third year PhD student.
+
+* Broadly, I am interested in ecology and plant diversity, and how they can be applied to make agriculture more sustainable and resource efficient. To this end, I am excited by the many lessons our dynamic ecosystems and fellow organisms have to teach us about resilience, niche partitioning, and multifunctionality. I have experience examining the influence of on-farm biodiversity in diversified vegetable and dairy farms through beetle banks and native meadows. I also have expertise in microplastic pollution in terrestrial systems, with a particular focus on soil microfiber contamination from sewage sludge and irrigation and how they affect crops.
+
+* My research at Cornell is situated within both the Sustainable Cropping Systems & Weed Ecology and Management Labs. My work focuses on weed-crop competition and how it relates to management practices. I am currently leading a multi-institutional project investigating the weed-crop dynamics of perennial grain cropping systems. In particular, I am interested in how seeding rate of perennial intermediate wheatgrass can be modified to maximize yields and improve weed suppression. I am also looking at how cover crops can help facilitate organic no-till spring wheat production. 
+
+* Ultimately, I aim to promote curiosity-driven, hands-on outdoor learning at an institutional level. I strongly believe developing an intuition for and connection with nature is a critical tool to addressing systemic issues in environmental and social inequality, while developing creative, well-rounded, and compassionate thinkers. I also strive to advance management practices in agricultural systems that promote resiliency and self-regulation through adopting ecological principles.
+
+For more information, please see my lab's website at [SCS Lab](https://blogs.cornell.edu/scslab/natasha-djuric/).
