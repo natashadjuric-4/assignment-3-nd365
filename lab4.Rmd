@@ -1,0 +1,73 @@
+---
+title: "lab4"
+author: "Natasha Djuric"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# install.packages("dslabs")
+library(tidyverse)
+library(dslabs)
+library(ggrepel)
+
+gapminder |> as_tibble() |> 
+  head(5)
+```
+
+```{r}
+#Question 1
+gapminder |> 
+  arrange(-population,-year) |> 
+  filter(country %in% c("China","India","United States","Indonesia","Pakistan")) |> 
+  ggplot(aes(x=year,y=population,color=country))+
+  geom_point()+
+  geom_smooth()
+  
+```
+#Question 2
+
+```{r}
+gapminder |> 
+  filter(year==2015 & country %in% c("Turkey","Poland","South Korea","Russia","Vietnam","South Africa")) |> 
+  arrange(-infant_mortality) |> 
+  select(country,infant_mortality) |> 
+  knitr::kable()
+```
+
+#Question 3
+
+```{r Question 3}
+gapminder |> 
+  filter(year==2000) |> 
+  ggplot(aes(x=gdp/population, y=fertility))+
+  geom_point()+
+  geom_smooth(method="lm")
+```
+# Question 4
+
+```{r Question 4}
+gapminder |> 
+  filter(year==2000) |> 
+  ggplot(aes(x=gdp/population, y=fertility))+
+  geom_point()+
+  geom_smooth(method="lm")+
+  facet_wrap(~continent,scales="free_y")
+```
+Europe is the only continent where per capita gdp is positively related with fertility rate
+
+```{r}
+eu_2000<-gapminder |> 
+  filter(year==2000 & continent=="Europe")
+
+eu_2000|> 
+  filter(fertility > 1.5, gdp/population > 20000) |> 
+  ggplot(aes(x=gdp/population, y=fertility,color=region))+
+  ggrepel::geom_label_repel(aes(label=country))+
+  geom_point(data=eu_2000)
+```
+
