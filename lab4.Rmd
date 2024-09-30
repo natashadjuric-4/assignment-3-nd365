@@ -83,7 +83,7 @@ gapminder |>
 ```{r}
 gapminder |> 
   filter(year == 2015) |> 
-  summarise(averagelifeexpectancy = sum(life_expectancy *population)/sum(population)
+  summarise(averagelifeexpectancy = sum(life_expectancy *population)/sum(population))
 ```
 
 # Question 7
