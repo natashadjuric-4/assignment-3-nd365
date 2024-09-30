@@ -70,4 +70,31 @@ eu_2000|>
   ggrepel::geom_label_repel(aes(label=country))+
   geom_point(data=eu_2000)
 ```
+# Question 5
+```{r}
+gapminder |> 
+  filter(year == 2015) |> 
+  group_by(continent) |> 
+  summarise(popbillions = sum(population)/10^9)
+```
 
+# Question 6
+(each country gets its own row, but some countries have larger populations so this needs to be weighted by the population)
+```{r}
+gapminder |> 
+  filter(year == 2015) |> 
+  summarise(averagelifeexpectancy = sum(life_expectancy *population)/sum(population)
+```
+
+# Question 7
+```{r}
+gapminder |> 
+  filter(year == 2015 & continent %in% c("Europe","Africa")) |> 
+  group_by(continent) |> 
+  summarise(meanlifeexpectancy = sum(life_expectancy*population)/sum(population)) 
+  
+library(gapminder)
+  
+```
+
+# Exercise 2: Use data transformation and visualization to explore the following open-ended question
